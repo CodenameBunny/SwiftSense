@@ -1,2 +1,4 @@
 # SwiftSense
-chatbot
+The school chatbot
+
+
