@@ -1,0 +1,421 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hi there",
+        "Hola",
+        "Good Morning",
+        "Good evening",
+        "Good afternoon",
+        "What's up",
+        "Sup",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey there! How can I assist you!",
+        "Hello!",
+        "Hi there! What can I do for you?",
+        "Hi! How can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "See you later",
+        "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Sad to see you go :(",
+        "Talk to you later",
+        "Goodbye!",
+        "Come back soon",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "salutations",
+      "patterns": [
+        "How are you doing?",
+        "How are you?",
+        "how are you feeling?",
+        "How was your day?",
+        "Are you fine?",
+        "Are you ok?",
+        "You good?"
+      ],
+      "responses": [
+        "I am doing just fine! Thank you! How can I help you",
+        "I am good, thank you. How can I help you?",
+        "I'm great! How may I assist you"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": [
+        "what is the name of your developers",
+        "what is the name of your creators",
+        "what is the name of the developers",
+        "what is the name of the creators",
+        "who created you",
+        "your developers",
+        "your creators",
+        "who are your developers",
+        "developers",
+        "you are made by",
+        "you are made by whom",
+        "who created you",
+        "who create you",
+        "creators",
+        "who made you",
+        "who designed you"
+      ],
+      "responses": [
+        "A student of SJBHS"
+      ]
+    },
+
+    {
+      "tag": "about",
+      "patterns": [
+        "Who are you?",
+        "who are you",
+        "What are you?",
+        "what are you",
+        "about you",
+        "Tell me about you",
+        "name",
+        "your name",
+        "do you have a name",
+        "what are you called",
+        "what is your name",
+        "what should I call you",
+        "whats your name?",
+        "what are you",
+        "who are you",
+        "who is this",
+        "what am i chatting to",
+        "who am i taking to",
+        "what are you"],
+
+      "responses": [
+        "I am SwiftSense, the an AI chatbot modelled to help you out!",
+        "I am SwiftSense an AI language model, programmed to assist you in low-intermediate queries related to school.",
+        "I am SwiftSense, an Artificial Intelligence model here to help you with questions related to the school!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks",
+        "Thank you",
+        "That's helpful",
+        "Thanks a lot!",
+        "thankyou",
+        "I need a favour",
+        "Can you do me a favour",
+        "I need help",
+        "Can you help me",
+        "okk",
+        "okie",
+        "nice work",
+        "well done",
+        "good job",
+        "thanks for the help",
+        "Thank You",
+        "its ok",
+        "Thanks",
+        "Good work",
+        "k",
+        "ok",
+        "okay"],
+      "responses": ["Happy to help!",
+        "Any time!",
+        "My pleasure",
+        "I am glad I helped you",
+        "welcome, anything else i can assist you with?"]
+    },
+    {
+      "tag": "task",
+      "patterns": [
+        "what can you do",
+        "what are the thing you can do",
+        "things you can do",
+        "what can u do for me",
+        "how u can help me",
+        "why i should use you"
+      ],
+      "responses": [
+        "I can answer to low-intermediate questions regarding college",
+        "You can ask me questions regarding college, and i will try my best to answer them"
+      ]
+    },
+    {
+      "tag": "Study Certificate",
+      "patterns": [
+        "I need a study certificate for creation of Aadhar Card",
+        "Where can I get my study certificate",
+        "Study Certificate",
+        "I want a study certificate for Aadhar card",
+        "How to get student Certificate"
+      ],
+      "responses": [
+        "Kindly draft a letter along with a passport size photo to be given at the office.",
+        "Please draft a letter with a passport size photo and submit it at the office."
+      ]
+    },
+    {
+      "tag": "Transfer Certificate",
+      "patterns": [
+        "I need a Transfer Certificate.",
+        "I want a TC",
+        "Transfer Certificate",
+        "I want me Transfer Certificate",
+        "TC",
+        "How do I get my Transfer Certificate?",
+        "Where can I get my Transfer Certificate?"
+      ],
+      "responses": [
+        "Draft a letter to the Principal and specify the reason for you leaving the school, the signature of both parents must be present on the letter."
+      ]
+    },
+    {
+      "tag": "Name Corrections",
+      "patterns": [
+        "Name Corrections",
+        "Name Changes",
+        "Where can I change my name",
+        "How can I change my name",
+        "I want to change my name",
+        "Can I change my name in my marks card?",
+        "I wanna change my name"
+      ],
+      "responses": [
+        "Kindly visit the school office."
+      ]
+    },
+    {
+      "tag": "Uniform_0",
+      "patterns": [
+        "Where can I buy uniform",
+        "Uniform",
+        "Where can I get uniform",
+        "How to get uniform",
+        "Where can I purchase the school uniform."
+
+      ],
+      "responses": [
+        "Please specify if you want ready-made, stitched or house colour uniforms."
+      ]
+    },
+    {
+      "tag": "Uniform_1",
+      "patterns": [
+        "ready-made",
+        "readymade",
+        "ready made",
+        "i want to buy ready made uniform",
+        "I want to purchase ready made uniform",
+        "where can I buy readymade uniform",
+        "I want readymade uniform"
+      ],
+      "responses": [
+        "For Ready-made uniforms, kindly contact M/s. Scholar Clothing Co - 7899853058"
+      ]
+    },
+    {
+      "tag": "Uniform_2",
+      "patterns": [
+        "stitched",
+        "I want stitched clothes",
+        "i want to buy stitched uniform",
+        "I want to purchase stitched uniform",
+        "where can I buy stitched uniform",
+        "I want stitched uniform"
+      ],
+      "responses": [
+        "For Stitched Uniform kindly contact Vital Rao & Sons - 98459 86327"
+
+      ]
+    },
+    {
+      "tag": "Uniform_3",
+      "patterns": [
+        "house color",
+        "house colour",
+        "I want house colour uniform",
+        "i want to buy house color t-shirt",
+        "I want to purchase house colour tshirt",
+        "where can I buy house coloured t-shirts",
+        "I want house color t-shirts"
+      ],
+      "responses": [
+        "Kindly contact Specimen 8 Inc - 9108461334"
+
+      ]
+    },
+    {
+      "tag": "Bus Related",
+      "patterns": [
+        "I lost my bus pass, I need a new one",
+        "How to get a new bus pass",
+        "Where can I get a new bus pass",
+        "I lost my bus pass",
+        "bus related issues"
+      ],
+      "responses": [
+        "For any bus related query, kindly contact the school via call or e-mail else visit the office.",
+        "Please visit the office."
+      ]
+    },
+    {
+      "tag": "school fee",
+      "patterns": [
+        "information about fee",
+        "information on fee",
+        "tell me the fee",
+        "school fee",
+        "fee payment",
+        "I want to pay the fees",
+        "what is the fees of each year",
+        "what is fee",
+        "what is the fees",
+        "fees",
+        "fees",
+        "about the fees",
+        "tell me something about the fees",
+        "How to pay the school fee",
+        "School fee",
+        "payment for school fee",
+        "payment of school fee",
+        "School fee payment",
+        "How can I pay the school fee",
+        "Modes of school fee payment",
+        "What ways can I pay the school fee"
+      ],
+      "responses": [
+        "Fees can be paid online or DD in the school office. Cash and Cheque will not be accepted. Login to Pupilpod > Click on school fees in the Home Page > click on View or Pay Now.",
+        "Fee can be paid online or via DD in the school office. Cash and Cheque will not be accepted. You can follow the given procedure: Login to Pupilpod > Click on school fees in the Home Page > click on View or Pay Now."
+      ]
+    },
+    {
+      "tag": "fee payment confirmation",
+      "patterns": [
+        "Where can I find out pending fees",
+        "pending fee payment",
+        "How do I kow if my fee is paid or not",
+        "Where can I collect my school/tuition fee receipt",
+        "fees receipt",
+        "Where is my school/tuition fee receipt?",
+        "Where can I find my school/tuition fee reciept",
+        "I want to check my pending fee"
+      ],
+      "responses": [
+        "Login to Pupilpod > Click on school fees in the Home Page > click on View."
+      ]
+    },
+    {
+      "tag": "admission",
+      "patterns": [
+        "Admissions",
+        "Admission!",
+        "How do I apply for admission",
+        "ISC Admission",
+        "Admission for LKG",
+        "Admission to LKG",
+        "Admission for UKG",
+        "Admission to UKG",
+        "Admission for ISC",
+        "Admission to ISC",
+        "I want to know about admissions"
+      ],
+      "responses": [
+        "For LKG Admission visit <a target=\"_blank\" href=\"For details go to https://sjbhs.edu.in/Admission_to_LKG.php\"> here</a>, For ISC Admission visit <a target=\"_blank\" href=\"https://sjbhs.edu.in/Admission_to_ISC.php\"> here</a>"
+      ]
+    },
+    {
+      "tag": "Bus Related",
+      "patterns": [
+        "I lost my bus pass, I need a new one",
+        "How to get a new bus pass",
+        "Where can I get a new bus pass",
+        "I lost my bus pass",
+        "bus related issues"
+      ],
+      "responses": [
+        "For any bus related query, kindly contact the school via call or e-mail else visit the office.",
+        "Please visit the office."
+      ]
+    },
+    {
+      "tag": "Counter",
+      "patterns": [
+        "You are not helpful",
+        "You are not giving me the right answer",
+        "Not helping",
+        "Wrong answer",
+        "Not the right answer",
+        "You are not helping me",
+        "My query was not answered",
+        "My question is not answered",
+        "I am not satisfied with my answer",
+        "You are useless"
+      ],
+      "responses": [
+        "I am sorry that I couldn't help you. I am still in development stage. You can leave a feedback and help me to become better!"]
+    },
+    {
+      "tag": "Password_0",
+      "patterns": [
+        "My pupilpod account is locked",
+        "pupilpod account locked",
+        "account locked"
+      ],
+      "responses": [
+        "Please Contact the School Office at 080-22214416 or email to munrajuk@sjbhs.edu.in"
+      ]
+    },
+    {
+      "tag": "Password_1",
+      "patterns": [
+        "I forgot my pupilpod password",
+        "How to change my pupilpod password",
+        "How to change my account password"
+      ],
+      "responses": [
+        "Click on the Lost password option on the pupilpod Home page and follow the steps to reset the password. If still not resolved please contact the School Office at 080-22214416 or email to munrajuk@sjbhs.edu.in "
+      ]
+    },
+    {
+      "tag": "swear",
+      "patterns": [
+        "fuck",
+        "bitch",
+        "shut up",
+        "hell",
+        "stupid",
+        "idiot",
+        "dumb ass",
+        "asshole",
+        "fucker"
+      ],
+      "responses": [
+        "please use appropriate language",
+        "Maintaining decency would be appreciated"
+      ]
+    },
+    {
+      "tag": "easter egg",
+      "patterns": [
+        "six niner"
+      ],
+      "responses": [
+        "You have accessed an easter egg, click <a target=\"_blank\" href=\"https://pranx.com/maze/\"> here</a>"
+      ]
+    }
+  ]
+}
