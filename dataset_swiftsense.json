@@ -391,24 +391,6 @@
       ]
     },
     {
-      "tag": "swear",
-      "patterns": [
-        "fuck",
-        "bitch",
-        "shut up",
-        "hell",
-        "stupid",
-        "idiot",
-        "dumb ass",
-        "asshole",
-        "fucker"
-      ],
-      "responses": [
-        "please use appropriate language",
-        "Maintaining decency would be appreciated"
-      ]
-    },
-    {
       "tag": "easter egg",
       "patterns": [
         "six niner"
