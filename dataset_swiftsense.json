@@ -150,8 +150,8 @@
         "why i should use you"
       ],
       "responses": [
-        "I can answer to low-intermediate questions regarding college",
-        "You can ask me questions regarding college, and i will try my best to answer them"
+        "I can answer to low-intermediate questions related to the school",
+        "You can ask me questions regarding the school, and i will try my best to answer them"
       ]
     },
     {
@@ -210,6 +210,19 @@
       ],
       "responses": [
         "Please specify if you want ready-made, stitched or house colour uniforms."
+      ]
+    },
+    {
+      "tag": "Pupilpod_password",
+      "patterns": [
+        "I want to change my pupilpod password",
+        "pupilpod password reset",
+        "how to change pupilpod password",
+        "change school password",
+        "Can you help me change my password"
+      ],
+      "responses": [
+        "Click on the Lost Password option on the Pupilpod Home page and follow the steps to reset the password"
       ]
     },
     {
@@ -286,6 +299,8 @@
         "what is the fees",
         "fees",
         "fees",
+        "payment",
+        "Where can I do payments",
         "about the fees",
         "tell me something about the fees",
         "How to pay the school fee",
@@ -358,6 +373,7 @@
         "You are not giving me the right answer",
         "Not helping",
         "Wrong answer",
+        "you are stupid.",
         "Not the right answer",
         "You are not helping me",
         "My query was not answered",
@@ -366,7 +382,7 @@
         "You are useless"
       ],
       "responses": [
-        "I am sorry that I couldn't help you. I am still in development stage. You can leave a feedback and help me to become better!"]
+        "I am sorry that I couldn't help you. I am still in development stage. You can leave a feedback at swiftsensefeedback@gmail.com and help me to become better!"]
     },
     {
       "tag": "Password_0",
@@ -388,15 +404,6 @@
       ],
       "responses": [
         "Click on the Lost password option on the pupilpod Home page and follow the steps to reset the password. If still not resolved please contact the School Office at 080-22214416 or email to munrajuk@sjbhs.edu.in "
-      ]
-    },
-    {
-      "tag": "easter egg",
-      "patterns": [
-        "six niner"
-      ],
-      "responses": [
-        "You have accessed an easter egg, click <a target=\"_blank\" href=\"https://pranx.com/maze/\"> here</a>"
       ]
     }
   ]
