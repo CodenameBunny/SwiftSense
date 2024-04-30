@@ -164,8 +164,41 @@
         "How to get student Certificate"
       ],
       "responses": [
-        "Kindly draft a letter along with a passport size photo to be given at the office.",
-        "Please draft a letter with a passport size photo and submit it at the office."
+        "Specify if you want it for Aadhar Card, Caste Certificate or Entrance exam."
+      ]
+    },
+    {
+      "tag": "Entrance",
+      "patterns": [
+        "entrance exam",
+        "i want study certificate for entrance exam.",
+        "i want it for entrance exams"
+      ],
+      "responses": [
+        "Kindly get your Transfer certificate or Draft a letter with all your details regarding admission and graduating year from the school."
+      ]
+    },
+    {
+      "tag": "aadhar",
+      "patterns": [
+        "aadhar card",
+        "i want study certificate for making aadhar card.",
+        "i want it for aadhar card"
+      ],
+      "responses": [
+        "Kindly draft a letter along with passport size photo to be given at the office."
+      ]
+    },
+    {
+      "tag": "caste",
+      "patterns": [
+        "caste certificate",
+        "caste",
+        "i want study certificate for caste certificate.",
+        "i want it for caste certificate"
+      ],
+      "responses": [
+        "Kindly draft a letter along with the parent's/student's caste certificate issued by the Government."
       ]
     },
     {
@@ -195,7 +228,67 @@
         "I wanna change my name"
       ],
       "responses": [
-        "Kindly visit the school office."
+        "Kindly bring the updated Birth Certificate, Affidavit, News paper advertisement. After which you can approach the school office to make corrections in the school records."
+      ]
+    },
+    {
+      "tag": "books_0",
+      "patterns": [
+        "Where can I buy books",
+        "books",
+        "Where can I get school books",
+        "How to get school books",
+        "Where can I purchase books.",
+        "I want to biy school books"
+
+      ],
+      "responses": [
+        "Please specify which grade LKG & UKG or 1-10 or ISC."
+      ]
+    },
+    {
+      "tag": "books_1",
+      "patterns": [
+        "LKG",
+        "UKG",
+        "kindergarten",
+        "LKG & UKG",
+        "LKG and UKG"
+      ],
+      "responses": [
+        "Kindly contact Vidyarthikendra - 7307059385, 7753888113, 7753888111."
+      ]
+    },
+    {
+      "tag": "books_2",
+      "patterns": [
+        "1-10",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "1 to 10"
+      ],
+      "responses": [
+        "Kindly contact Studentzone - 99867 40540"
+      ]
+    },
+    {
+      "tag": "books_3",
+      "patterns": [
+        "ISC",
+        "11th",
+        "12th",
+        "11 and 12"
+      ],
+      "responses": [
+         "Gangarams Book Bureau - 99450 84629."
       ]
     },
     {
@@ -209,7 +302,7 @@
 
       ],
       "responses": [
-        "Please specify if you want ready-made, stitched or house colour uniforms."
+        "Please specify if you want Ready-made, Stitched, House colour uniforms or School Shoes."
       ]
     },
     {
@@ -237,7 +330,7 @@
         "I want readymade uniform"
       ],
       "responses": [
-        "For Ready-made uniforms, kindly contact M/s. Scholar Clothing Co - 7899853058"
+        "For Ready-made uniforms, kindly contact M/s. Scholar Clothing Co - 78998 53058"
       ]
     },
     {
@@ -260,6 +353,7 @@
       "patterns": [
         "house color",
         "house colour",
+        "house colour uniform",
         "I want house colour uniform",
         "i want to buy house color t-shirt",
         "I want to purchase house colour tshirt",
@@ -267,7 +361,24 @@
         "I want house color t-shirts"
       ],
       "responses": [
-        "Kindly contact Specimen 8 Inc - 9108461334"
+        "Kindly contact Specimen 8 Inc - 91084 61334"
+
+      ]
+    },
+    {
+      "tag": "Uniform_4",
+      "patterns": [
+        "school shoes",
+        "shoes",
+        "black school shoes",
+        "I want school shoes",
+        "i want to buy school shoes",
+        "I want to purchase shoes",
+        "where can I buy school shoes",
+        "I want shoes"
+      ],
+      "responses": [
+        "Kindly contact Sunrise Enterprises - 93530 81600/080-23507129)"
 
       ]
     },
@@ -281,8 +392,7 @@
         "bus related issues"
       ],
       "responses": [
-        "For any bus related query, kindly contact the school via call or e-mail else visit the office.",
-        "Please visit the office."
+        "For any bus related query, kindly contact or visit the school office. If you have made the payment and want to receive the bus pass, Kindly visit the school office along with a stamp sized photograph."
       ]
     },
     {
@@ -359,7 +469,8 @@
         "How to get a new bus pass",
         "Where can I get a new bus pass",
         "I lost my bus pass",
-        "bus related issues"
+        "bus related issues",
+        "bus"
       ],
       "responses": [
         "For any bus related query, kindly contact the school via call or e-mail else visit the office.",
@@ -382,7 +493,7 @@
         "You are useless"
       ],
       "responses": [
-        "I am sorry that I couldn't help you. I am still in development stage. You can leave a feedback at swiftsensefeedback@gmail.com and help me to become better!"]
+        "I am sorry that I couldn't help you. I am still in development stage. You can leave a feedback <a target=\"_blank\" href=\"https://forms.gle/K51dnSeWjBSjXSFA8\"> here</a> and help me to become better! You can contact the school office for your queries at 080-22214416."]
     },
     {
       "tag": "Password_0",
@@ -400,10 +511,235 @@
       "patterns": [
         "I forgot my pupilpod password",
         "How to change my pupilpod password",
-        "How to change my account password"
+        "How to change my account password",
+        "pupilpod password"
       ],
       "responses": [
         "Click on the Lost password option on the pupilpod Home page and follow the steps to reset the password. If still not resolved please contact the School Office at 080-22214416 or email to munrajuk@sjbhs.edu.in "
+      ]
+    },
+    {
+      "tag": "French Fee",
+      "patterns": [
+        "how to pay french fee",
+        "i want to pay french fee",
+        "french fees",
+        "french fees payment"
+      ],
+      "responses": [
+        "Kindly follow the link to pay the French fee <a target=\"_blank\" href=\"For details go to Kindly follow the link https://feebook.southindianbank.com/FeeBookUser/userhome or School Website.\"> here</a>."
+      ]
+    },
+    {
+      "tag": "ID Card",
+      "patterns": [
+        "i did not get my id card",
+        "i did not receive my ID Card",
+        "why have I not got my ID Card",
+        "ID Card",
+        "I applied for my school student ID card weeks ago, but it still hasn't arrived. What should I do?",
+        "Parent ID card.",
+        "My classmate applied for their school student ID card after me, but they received it already. Why haven't I received mine?",
+        "I checked the school's system, and it says my student ID card was issued, but I never received it. What can I do?",
+        "I moved recently. Could that be why I haven't received my school student ID card?",
+        "Who should I contact to report that I haven't received my school student ID card?",
+        "Is there an option for expedited delivery if my school student ID card hasn't arrived within the expected timeframe?",
+        "My school student ID card was supposed to be distributed last week, but it still hasn't arrived. What could be the reason?",
+        "I received a notification that my school student ID card was distributed, but it hasn't arrived yet. What should I do?"
+  ],
+      "responses" : [
+        " Kindly make sure you have uploaded the Pictures of Student (In School Uniform), Father and Mother Photo on Pupilpod. Incase of Lost or duplicate ID Card, please approach the office."
+      ]
+    },
+    {
+      "tag" : "MS",
+      "patterns" : [
+        "What is my MS Teams username and password?",
+        "What is my teams username?",
+        "what is my teams password",
+        "what is my ms password",
+        "what is my ms username",
+        "microsoft teams",
+        "ms teams"
+      ],
+      "responses" : [
+        "The username is the Student ID followed by '@sjbhs.edu.in' (eg: SJ21E12345@sjbhs.edu.in). For the password, please contace the office."
+      ]
+    },
+    {
+      "tag": "Marks Card",
+      "patterns":[
+        "I lost my pass certificate, what should I do?",
+        "Lost pass certificate",
+        "pass certificate",
+        "10th certificate",
+        "12th certificate"
+      ],
+      "responses": [
+        "Kindly obtain a FIR copy from Police Station and thereafter enclose copy of FIR and a copy of the Lost Pass Certificate along with a charge of Rs.775/- as levied by the Council."
+      ]
+    },
+    {
+      "tag": "attest",
+      "patterns": [
+        "attestation",
+        "attest"
+      ],
+      "responses": [
+        "Please bring a copy of Marks and Pass Certificate to the school office."
+      ]
+    },
+    {
+      "tag": "report card",
+      "patterns": [
+        "Where can i find my report card.",
+        "i want my report card.",
+        "I want my marks card",
+        "marks card",
+        "midterm scores",
+        "scores",
+        "first unit scores",
+        "second unit scores",
+        "finals scores",
+        "marks"
+      ],
+      "responses": [
+        "Login to Pupilpod> Click on Progress report in the Home Page> View or download the respective exam report card."
+      ]
+    },
+    {
+      "tag": "photo",
+      "patterns": [
+        "How to upload photographs on pupilpod.",
+        "photographs",
+        "photo",
+        "i want to upload photograph",
+        "i want to change photograph on pupilpod"
+      ],
+      "responses": [
+        "Login to Pupilpod> Click on View Details in Student profile> Click on Upload option and browse the photo from your device and upload> To upload Parents Photo> Click on Family option> Click on Upload option and browse the photo from your device and upload it"
+      ]
+    },
+    {
+      "tag": "student id",
+      "patterns": [
+        "I want to know the students id",
+        "Where can i find the student id",
+        "student id",
+        "admission number",
+        "admission no",
+        "where can i find the student admission number",
+        "student username"
+      ],
+      "responses": [
+        "Enter the Parents Mobile Number to know the Student ID (After entering Correct mobile number The Student ID will be displayed)."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "scholarship",
+        "scholarships",
+        "how to get scholarships?",
+        "i want to get scholarship",
+        "how to apply for scholarships",
+        "oba scholarships",
+        "how to get oba scholarships"
+      ],
+      "responses": [
+        "Apply for the scholarship by the end of June every year. Forms will be available at the school office."
+      ]
+    },
+    {
+      "tag": "parents number",
+      "patterns": [
+        "how to change the mobile number",
+        "mobile number",
+        "mobile no",
+        "where can i change the contact number",
+        "parents mobile number",
+        "contact no"
+      ],
+      "responses": [
+        "Kindly Contact School office with request letter to Principal."
+      ]
+    },
+    {
+      "tag": "address",
+      "patterns": [
+        "Where can I change my address.",
+        "I want to change my house address",
+        "change address",
+        "home address",
+        "residential address",
+        "I want to update my address"
+      ],
+      "responses": [
+        "Kindly Contact School office with Address proof & request letter to Principal."
+      ]
+    },
+    {
+      "tag": "club",
+      "patterns":[
+        "I want to pay clubs fees",
+        "club fees",
+        "clubs fees",
+        "how to pay clubs fees",
+        "where to pay the club fees"
+      ],
+      "responses": [
+        "Login to Pupilpod> Click on Club fees in the Home Page> click on View or Pay Now."
+      ]
+    },
+    {
+      "tag": "bus fee",
+      "patterns": [
+        "I want to pay bus fees.",
+        "bus fee",
+        "how to pay bus fee",
+        "where to the bus fee",
+        "where can i pay the bus fee",
+        "bus fees"
+      ],
+      "responses": [
+        "Kindly click <a target=\"_blank\" href=\"https://feebook.southindianbank.com/FeeBookUser/userhome\n\"> here</a> to pay the Bus Fee."
+      ]
+    },
+    {
+      "tag": "cricket",
+      "patterns": [
+        "cricket club",
+        "cricket",
+        "cricket academy",
+        "how to enrol for the cricket academy",
+        "how to pay for cricket club"
+      ],
+      "responses": [
+        "Click <a target=\"_blank\" href=\"https://feebook.southindianbank.com/FeeBookUser/userhome\n\"> here</a> or visit the school website."
+      ]
+    },
+    {
+      "tag": "SATS",
+      "patterns": [
+        "student SATS number",
+        "what is my SATS number",
+        "SATS no",
+        "SATS"
+      ],
+      "responses": [
+        "Contact School Office - 080-22214416 (or email to munrajuk@sjbhs.edu.in)"
+      ]
+    },
+    {
+      "tag": "pta",
+      "patterns": [
+        "how to pay pta fees",
+        "pta",
+        "pta fee",
+        "where to pay the pta fee"
+      ],
+      "responses": [
+        "Login to Pupilpod> Click on PTA fees in the Home Page> click on View or Pay Now."
       ]
     }
   ]
